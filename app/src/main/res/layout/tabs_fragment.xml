@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF0000">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FF0000" />
+        </HorizontalScrollView>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <FrameLayout
+                android:id="@+id/archive_tab"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FF0000" />
+
+            <FrameLayout
+                android:id="@+id/drops_tab"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FF0000" />
+
+            <FrameLayout
+                android:id="@+id/rss_tab"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FF0000" />
+
+            <FrameLayout
+                android:id="@+id/history_tab"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FF0000" />
+
+            <FrameLayout
+                android:id="@+id/info_tab"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FF0000" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</TabHost>

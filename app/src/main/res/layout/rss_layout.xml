@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/pulpBanner"
+        android:layout_width="match_parent"
+        android:layout_height="150dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/pulp_banner" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:cacheColorHint="#00000000"
+        android:drawSelectorOnTop="true"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
